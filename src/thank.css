@@ -1,0 +1,13 @@
+.thankyou{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 2px solid plum ;
+    align-items: center;
+}

@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url('background.jpg');
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+}
+#main .register{
+  align-items: flex-end;
+  right: 0px;
+  position: absolute;
+  min-height: 100vh;
+  width: 35vw;
+  min-width: 300px;
+ 
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  color: white;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+  margin-top: 0px;
+}
+.content{
+  display: grid;
+  row-gap: 8vh;
+  column-gap: 2vw;
+  grid-template-columns: 25vw 25vw;
+  position: absolute;
+  left: 20px;
+  top: 20vh;
+}
+.content1{
+  color: aliceblue;
+  display: flex;
+  border: 2px solid rgb(248, 236, 236);
+  height: 32vh;
+  padding: 8px;
+  padding-top: 12px;
+  border-radius: 3vw;
+}
+.content1 img{
+  width: 12vw;
+  height: 12vw;
+  position: relative;
+  border-radius: 5px;
+}
+.content1 img:hover{
+  height: 15vw;
+  width: 15vw;
+}
+.head{
+  margin-top: 2vh;
+  top: 2vh;
+  font-size: 40px;
+  font-family: "Sofia", sans-serif;
+  
+}
+.label{
+  font-family: "Trirong", sans-serif;
+  font-size: 18px;
+}
+.register input{
+  background-color: transparent;
+  outline-style: none;
+  border: 2px solid white;
+  color: white;
+  width: 28vw;
+  height: 4vh;
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 300;
+}
+.register input:active{
+  border: 2px solid rgb(20, 206, 20);
+}
+.register label{
+   margin-right: 10px;
+   padding-right: 10px;
+   display: flex;
+   flex-direction: column;
+ 
+}
+.thank-btn{
+  width: 10vw;
+  height: 10vh;
+  border-radius: 10vh;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.submitbutton{
+  width: 25vw;
+  height: 6vh;
+  min-width: 50px;
+  min-height: 25px;
+  border-radius: 2.5vh;
+  color: rgb(123, 7, 90);
+  background-color: rgb(229, 168, 198);
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.outer{
+  
+  color: rgb(227, 237, 246);
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+.outer h1{
+  position: absolute;
+    top: 0vh;
+    margin-top: 0;
+    width: 30vw; 
+    position: absolute; 
+    left: 20%; 
+    border-bottom: 5px solid white; 
+    overflow: hidden; 
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url('glitter.png');
+    -webkit-background-clip: text;
+
+    overflow: hidden;
+      width: 0;
+    animation:  animate 6s linear forwards, back 20s linear infinite;
+}
+@keyframes animate { 
+  0% { 
+      width: 0px; 
+      height: 0px; 
+  } 
+
+  30% { 
+      width: 50px; 
+      height: 0px; 
+  } 
+
+  60% { 
+      width: 500px; 
+      height: 80px; 
+  }
+  
+  100%{
+    width: 40%;
+    height: 80px; 
+    
+  }
+} 
+@keyframes back{
+    100%{
+        background-position: 2000px, 0;
+    }
+}
+
+ 
